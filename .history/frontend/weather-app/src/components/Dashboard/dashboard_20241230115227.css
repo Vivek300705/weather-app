@@ -1,0 +1,64 @@
+.dashboard-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.location-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.error-text {
+    color: red;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adds space between Weather and News sections */
+    padding: 10px; /* Add padding around the flex container */
+}
+
+.weather-card,
+.news-section {
+    flex: 1; /* Ensure both sections take equal space */
+    padding: 20px; /* Add padding inside each component */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Margin outside each section for spacing */
+}
+
+.weather-card {
+    max-width: 48%; /* Adjust width for the weather card, making space for news */
+}
+
+.news-section {
+    max-width: 48%; /* Adjust width for the news card */
+}
+
+@media (max-width: 768px) {
+    .dashboard-content {
+        flex-direction: column; /* Stack the sections vertically on smaller screens */
+        gap: 10px; /* Add space between stacked sections */
+    }
+
+    .weather-card,
+    .news-section {
+        max-width: 100%; /* Allow sections to take full width on smaller screens */
+    }
+}

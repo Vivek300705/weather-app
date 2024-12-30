@@ -1,0 +1,27 @@
+/* weather.css */
+
+/* Container for the weather card */
+.weather-container {
+    background-color: rgba(107, 114, 128, 0.15); /* bg-slate-600 bg-opacity-15 */
+    margin-left: 1.5rem; /* mx-6 */
+    width: 15rem; /* w-60 */
+    height: 15rem; /* h-60 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Weather information section */
+.weather-info {
+    padding-top: 4rem; /* py-16 */
+    text-align: center;
+    color: white;
+    font-size: 1.125rem; /* text-lg */
+}
+
+/* Loading text */
+.loading-text {
+    color: white;
+    text-align: center;
+}

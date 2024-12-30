@@ -1,0 +1,30 @@
+.dashboard-container {
+    margin: 10px;
+    padding: 6px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.location-text {
+    font-size: 18px;
+    color: #555;
+}
+
+.weather-card {
+    margin-top: 20px;
+}
+
+.error-text {
+    color: red;
+}

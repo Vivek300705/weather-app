@@ -1,0 +1,49 @@
+.news-container {
+    margin-top: 20px;
+}
+
+.news-card {
+    display: flex;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.news-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.news-text {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.news-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.news-description {
+    font-size: 14px;
+    color: #555;
+}
+
+.news-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+}
+
+.error-text {
+    color: red;
+}
